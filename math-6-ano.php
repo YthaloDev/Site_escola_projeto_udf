@@ -57,15 +57,25 @@
                     "correct_answer" => "24.044"
                 ],
                 [
-                    "question" => "Qual é a raiz quadrada de 16?",
-                    "options" => ["2", "4", "6", "8"],
-                    "correct_answer" => "4"
+                    "question" => "(OBMEP) [Alterada] Uma turma possui 40 alunos, e cada um deles tem um número de 1 a 40 na lista de chamada. Em um dia, a professora chamou João para o quadro e também outros cinco alunos cujos números eram múltiplos do número de João. Qual foi o maior número chamado?",
+                    "options" => ["20", "28", "30", "35", "36"],
+                    "correct_answer" => "36"
                 ],
                 [
-                    "question" => "Qual é o resultado de 10 - 2?",
-                    "options" => ["5", "6", "7", "8"],
-                    "correct_answer" => "8"
-                ]
+                    "question" => "O xadrez é um jogo muito antigo e ainda assim, muito popular. Neste jogo, as peças são movidas sobre um tabuleiro quadriculado, onde cada quadrado é chamado de casa. O tabuleiro de xadrez possui 8 linhas (horizontalmente) e 8 colunas (verticalmente), totalizando 64 casas. Cada jogador começa com 16 peças, que incluem 1 rei, 1 dama, 2 torres, 2 bispos, 2 cavaleiros e 8 peões. Com base nessa informação, conte a quantidade total de casas e peças, e, depois, assinale a opção que determina essas quantidades na forma de potências com base igual a 2
+                    ",
+                    "options" => ["2<sup>6</sup> de peças e 2<sup>6</sup> de casas",
+                    "2<sup>5</sup> de peças e 2<sup>4</sup> de casas",
+                    "2<sup>5</sup> de peças e 2<sup>9</sup> de casas", 
+                    "2<sup>5</sup> de peças e 2<sup>6</sup> de casas",
+                    "2<sup>6</sup> de peças e 2<sup>5</sup> de casas"],
+                    "correct_answer" => "2<sup>5</sup> de peças e 2<sup>6</sup> de casas"
+                ],
+                [
+                    "question" => "(OBMEP) [Alterada] Dos números a seguir, marque aquele que possui uma raiz quadrada exata.",
+                    "options" => ["500", "200", "121", "85", "72"],
+                    "correct_answer" => "121"
+                ]                
             ];
 
             // Inicializa a questão atual se não estiver definida

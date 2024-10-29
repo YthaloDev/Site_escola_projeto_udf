@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home .hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #FFA500;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+
+/*--------------------------------------------------------------
+# Cursos
+--------------------------------------------------------------*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 40px auto; /* Espaço acima e centralização horizontal */
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+
+.math, .science {
+    flex: 1;
+    max-width: 400px;
+    background-color: transparent; /* Remove o fundo cinza das caixas */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: none; /* Remove a sombra das caixas */
+    text-align: center;
+}
+
+
+.math button, .science button {
+    display: flex;
+    align-items: center;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.math button:hover, .science button:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+}
+
+.math li, .science li {
+    list-style: none; /* Remover o estilo de lista padrão */
+    margin: 10px 0;
+}
+
+.math a, .science a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.math a:hover, .science a:hover {
+    background-color: #007BFF; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor da fonte ao passar o mouse */
+}
+
+.links-math, .links-science {
+    display: flex;
+    justify-content: flex-start; /* Alinha os links à esquerda */
+    flex-wrap: wrap;
+    padding: 10px;
+    max-width: 400px;
+    margin: 20px auto 0; /* Espaço acima dos links */
+    text-align: left;
+}
+
+
+
+.links-math.hidden, .links-science.hidden {
+    display: none; /* Oculta os links */
+}
+
+.links-math li, .links-science li {
+    width: 45%; /* Cada item ocupa quase metade da linha */
+    list-style: none;
+    text-align: center;
+    margin: 5px 0;
+    white-space: nowrap; /* Impede a quebra de linha */
+}
+

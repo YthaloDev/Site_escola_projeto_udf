@@ -26,7 +26,7 @@
     <section id="home">
         <div class="hero">
             <h2>Bem vindo ao educadigital</h2>
-            <a href="#courses" class="btn">Cursos</a>
+            <a href="cursos.php" class="btn">Cursos</a>
         </div>
     </section>
 

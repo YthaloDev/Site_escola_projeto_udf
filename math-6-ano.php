@@ -25,7 +25,6 @@
 <div class="content-wrapper">
     <div class="quiz-container-wrapper">
         <div class="content-wrapper">
-            <!-- Seção de Texto Explicativo -->
         <div class="explanation">
         <h3>Números Naturais: operações (adição, subtração, multiplicação, divisão), múltiplos e divisores, potências e raízes quadradas.</h3>
             <p>(Os números naturais são os números inteiros não negativos que usamos para contar. Eles começam em 0 (ou 1, dependendo da definição) e vão até o infinito: 0,1,2,3,4,… Operações com Números Naturais</p>
@@ -42,6 +41,24 @@
             <p>Uma potência representa um número multiplicado por ele mesmo um certo número de vezes. Por exemplo, 2³ (lê-se "dois elevado a três") significa 2×2×2=8. A base é o número que está sendo multiplicado (neste caso, 2) e o expoente indica quantas vezes multiplicou a base por si mesma.</p>
             <p><strong>Raízes Quadradas</strong></p>
             <p>A raiz quadrada de um número n é o valor que, quando multiplicado por si mesmo, resulta em n. Por exemplo, a raiz quadrada de 16 é 4, porque 4×4=16. O símbolo para raiz quadrada é &#8730;</p>
+            <br>
+            <h3>Frações e Decimais: Leitura, Escrita, Comparação, Operações e Transformações</h3>
+
+            <h4>Leitura e Escrita</h4>
+            <p>Frações representam uma parte de um todo e são escritas na forma <sup>a</sup>/<sub>b</sub>, onde <strong>a</strong> é o numerador e <strong>b</strong> é o denominador. Decimais, por outro lado, usam a vírgula ou ponto para indicar a parte fracionária, como 0,75 ou 0.75.</p>
+            
+            <h4>Comparação</h4>
+            <p>Para comparar frações, é comum encontrar um denominador comum ou convertê-las em decimais. Por exemplo, ½ é maior que ⅓ porque 0,5 &gt; 0,33.</p>
+            
+            <h4>Operações</h4>
+            <ul>
+                <strong>Adição e Subtração</strong>: Para somar ou subtrair frações, é necessário um denominador comum. Exemplo: ¼ + ½ = ¼ + 2/4 = 3/4.
+                <strong>Multiplicação</strong>: Multiplica-se os numeradores e os denominadores. Exemplo: 1/2 × 2/5 = 2/15.
+                <strong>Divisão</strong>: Multiplica-se pela fração inversa. Exemplo: ½ ÷ ¼ = ½ × 4/1 = 2.
+            </ul>
+            
+            <h4>Transformações</h4>
+            <p>Frações podem ser convertidas em decimais (e vice-versa). Para converter uma fração em decimal, divide-se o numerador pelo denominador. Por exemplo, 3/4 = 0,75. Decimais periódicos podem ser representados como frações, como 0,333... = ⅓.</p>
         </div>
         <div class="quiz-container">
             <h2>Quiz de Matemática</h2>
@@ -75,65 +92,122 @@
                     "question" => "(OBMEP) [Alterada] Dos números a seguir, marque aquele que possui uma raiz quadrada exata.",
                     "options" => ["500", "200", "121", "85", "72"],
                     "correct_answer" => "121"
-                ]                
+                ],
+                [
+                    "question" => "[Alterada] Em uma turma, há 32 alunos, dos quais ¼ são meninas. Com base nisso, qual das opções abaixo representa o número de meninos?",
+                    "options" => ["8", "12", "16", "24", "20"],
+                    "correct_answer" => "24"
+                ],
+                [
+                    "question" => "Júlia comprou 3,5 metros de tecido para fazer um vestido. Cada metro de tecido custou R$ 8,90. Após a compra do tecido, ela também comprou um botão que custou R$ 2,50. Qual foi o total que Julia gastou na loja?",
+                    "options" => ["R$ 29,40", "R$ 32,40", "R$ 34,40", "R$ 31,40", "R$ 33,65"],
+                    "correct_answer" => "R$ 33,65"
+                ],
+                [
+                    "question" => "Quantos minutos há em 3 horas e 15 minutos?",
+                    "options" => ["195 minutos", "180 minutos", "200 minutos", "210 minutos"],
+                    "correct_answer" => "195 minutos"
+                ],
+                [
+                    "question" => "Se uma régua mede 30 cm, quantas réguas são necessárias para medir 2,4 metros?",
+                    "options" => ["8", "9", "10", "11"],
+                    "correct_answer" => "8"
+                ],
+                [
+                    "question" => "Um cubo tem arestas de 4 cm. Qual é o volume desse cubo?",
+                    "options" => ["16 cm³", "24 cm³", "48 cm³", "64 cm³"],
+                    "correct_answer" => "64 cm³"
+                ],
+                [
+                    "question" => "Um retângulo tem 6 cm de largura e 8 cm de comprimento. Qual é o perímetro desse retângulo?",
+                    "options" => ["14 cm", "28 cm", "30 cm", "48 cm"],
+                    "correct_answer" => "28 cm"
+                ],
+                [
+                    "question" => "Um triângulo tem os seguintes lados: 6 cm, 8 cm e 10 cm. Esse triângulo é:",
+                    "options" => ["Um triângulo equilátero", "Um triângulo isósceles", "Um triângulo escaleno", "Um triângulo retângulo"],
+                    "correct_answer" => "Um triângulo retângulo"
+                ]          
             ];
-
-            // Inicializa a questão atual se não estiver definida
+            if (isset($_POST['restart_quiz'])) {
+                session_unset(); // Limpa as variáveis da sessão
+                $_SESSION['next_section_started'] = []; // Garante que next_section_started seja um array
+                header("Location: " . $_SERVER['PHP_SELF']); // Recarrega a página para começar o quiz novamente
+                exit;
+            }
+            
+            // Inicializa o índice da sessão para o quiz
             if (!isset($_SESSION['question_index'])) {
                 $_SESSION['question_index'] = 0;
             }
-
-            // Verifica se a questão atual está além do número total de questões
-            if ($_SESSION['question_index'] >= count($questions)) {
-                echo "<p>Parabéns! Você completou o quiz.</p>";
-                session_destroy(); // Limpa a sessão ao finalizar o quiz
-                exit;
+            
+            // Garante que next_section_started seja um array ao inicializar
+            if (!isset($_SESSION['next_section_started']) || !is_array($_SESSION['next_section_started'])) {
+                $_SESSION['next_section_started'] = [];
             }
-
-            // Obtém a questão atual
-            $current_question = $questions[$_SESSION['question_index']];
-            $question_text = $current_question["question"];
-            $options = $current_question["options"];
-            $correct_answer = $current_question["correct_answer"];
-
-            // Variável de controle para armazenar a resposta do usuário
-            $user_answer = null;
-
-            // Verifica se o formulário foi enviado
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            
+            $question_index = $_SESSION['question_index'];
+            $section_breaks = [4, 6, 9]; // Define pontos de transição entre as partes
+            $quiz_completed = $question_index >= count($questions); // Checa se o quiz terminou
+            
+            // Define a mensagem de transição com base na seção atual
+            $show_transition_message = false;
+            if (in_array($question_index, $section_breaks) && empty($_SESSION['next_section_started'][$question_index])) {
+                $show_transition_message = true;
+            }
+            
+            // Processa resposta ao enviar o formulário
+            if ($_SERVER["REQUEST_METHOD"] == "POST" && !$quiz_completed && !$show_transition_message && isset($_POST['answer'])) {
                 $user_answer = $_POST['answer'];
-                
+                $current_question = $questions[$question_index];
+            
                 // Verifica se a resposta está correta
-                if ($user_answer == $correct_answer) {
-                    echo "<p class='result' style='color: green;'>Resposta correta!</p>";
+                if ($user_answer == $current_question["correct_answer"]) {
                     $_SESSION['question_index']++; // Avança para a próxima questão
-                    
-                    // Redireciona para recarregar a página com a nova questão
-                    header("Location: " . $_SERVER['PHP_SELF']);
+                    header("Location: " . $_SERVER['PHP_SELF']); // Recarrega a página para próxima pergunta
                     exit;
                 } else {
-                    echo "<p class='result' style='color: red;'>Resposta incorreta. Tente novamente!</p>";
+                    echo "<p style='color: red;'>Resposta incorreta. Tente novamente!</p>";
                 }
+            }
+            
+            // Checa se "Iniciar próximo conteúdo" foi clicado
+            if (isset($_POST['start_next_section'])) {
+                $_SESSION['next_section_started'][$question_index] = true; // Marca a seção como iniciada
+                header("Location: " . $_SERVER['PHP_SELF']);
+                exit;
             }
             ?>
 
-            <div class="question"><?php echo $question_text; ?></div>
-            <form method="POST" action="">
-                <ul class="options">
-                    <?php foreach ($options as $option): ?>
-                        <li>
-                            <label>
-                                <input type="radio" name="answer" value="<?php echo $option; ?>" required>
-                                <?php echo $option; ?>
-                            </label>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-                <button type="submit">
-                    <?php echo ($user_answer == $correct_answer) ? "Próxima pergunta" : "Enviar Resposta"; ?>
-                </button>
-            </form>
+            <?php if ($quiz_completed): ?>
+                    <h2>Parabéns! Você completou todo o quiz.</h2>
+                    <form method="POST">
+                        <button type="submit" name="restart_quiz">Reiniciar Quiz</button>
+                    </form>
+                    <?php elseif ($show_transition_message): ?>
+                        <!-- Mensagem de transição entre as partes -->
+                        <h2>Você completou a Parte <?php echo array_search($question_index, $section_breaks) + 1; ?>! Vamos para a próxima parte.</h2>
+                        <form method="POST">
+                            <button type="submit" name="start_next_section">Iniciar próximo conteúdo</button>
+                        </form>
 
+                    <?php else: ?>
+
+                <?php
+                    $current_question = $questions[$question_index];
+                    echo "<h2>" . $current_question["question"] . "</h2>";
+                ?>
+                
+                <form method="POST">
+                    <?php foreach ($current_question["options"] as $option): ?>
+                        <label>
+                            <input type="radio" name="answer" value="<?php echo $option; ?>" required>
+                            <?php echo $option; ?>
+                        </label><br>
+                    <?php endforeach; ?>
+                    <button type="submit">Enviar Resposta</button>
+                </form>
+            <?php endif; ?>
         </div>
     </div>
 </div>

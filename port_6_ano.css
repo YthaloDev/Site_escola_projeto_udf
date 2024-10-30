@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home .hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #FFA500;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/*--------------------------------------------------------------
+# Text
+--------------------------------------------------------------*/
+
+.explanation-box {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.explanation-box h3 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.explanation-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.explanation-box li {
+    margin-bottom: 12px;
+}
+
+.explanation-box em {
+    font-style: italic;
+    color: #555;
+}

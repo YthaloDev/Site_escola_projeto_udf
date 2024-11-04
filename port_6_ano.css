@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -111,4 +111,77 @@ section {
 .explanation-box em {
     font-style: italic;
     color: #555;
+}
+
+/*--------------------------------------------------------------
+# Quiz
+--------------------------------------------------------------*/
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px; /* Limita a largura total */
+    margin: 20px auto;
+    padding: 20px;
+    gap: 20px; /* Espaço entre as caixas */
+}
+
+.explanation-box, .quiz-container-wrapper {
+    max-width: 600px; /* Limita a largura máxima de cada seção */
+}
+
+.quiz-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.quiz-container {
+    margin-left: 495px;
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: justify; /* Justifica o texto da pergunta */
+}
+
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 20px;
 }

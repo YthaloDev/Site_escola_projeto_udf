@@ -1,70 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="math_6_ano.css">
-    <title>Quiz de Matemática</title>
-
-</head>
-<body>
-<header id='home_quiz'>
-        <div class="logo">
-            <h1>Home Page</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="cursos.php">Cursos</a></li>
-                <li><a href="cadastro.php">Cadastro</a></li>
-            </ul>
-        </nav>
-</header>
-
-<div class="content-wrapper">
-    <div class="quiz-container-wrapper">
-        <div class="content-wrapper">
-        <div class="explanation">
-        <h3>Números Naturais: operações (adição, subtração, multiplicação, divisão), múltiplos e divisores, potências e raízes quadradas.</h3>
-            <p>(Os números naturais são os números inteiros não negativos que usamos para contar. Eles começam em 0 (ou 1, dependendo da definição) e vão até o infinito: 0,1,2,3,4,… Operações com Números Naturais</p>
-            <p><strong>Adição: </strong>Combina dois ou mais números para obter um total. Exemplo: 3+5=8</p>
-            <p><strong>Subtração: </strong>Remove um número de outro. Exemplo: 8−3=5</p>
-            <p><strong>Multiplicação: </strong>É a soma de um número repetido várias vezes. Exemplo: 4×3=12 (4 somado 3 vezes).</p>
-            <p><strong>Divisão: </strong>Distribui um número em partes iguais. Exemplo: 12÷3=4 (12 dividido em 3 partes iguais).</p>
-            <br>
-            Múltiplos e Divisores
-            <p><strong>Múltiplos: </strong>Um número mmm é um múltiplo de um número nnn se pode ser obtido multiplicando nnn por um número natural. Por exemplo, os múltiplos de 3 são 0,3,6,9,12,…</p>
-            <p><strong>Divisores: </strong>Um número d é um divisor de n se n pode ser dividido por d sem deixar resto. Por exemplo, os divisores de 12 são 1,2,3,4,6,12.</p>
-            <br>
-            <p><strong>Potências</strong></p>
-            <p>Uma potência representa um número multiplicado por ele mesmo um certo número de vezes. Por exemplo, 2³ (lê-se "dois elevado a três") significa 2×2×2=8. A base é o número que está sendo multiplicado (neste caso, 2) e o expoente indica quantas vezes multiplicou a base por si mesma.</p>
-            <p><strong>Raízes Quadradas</strong></p>
-            <p>A raiz quadrada de um número n é o valor que, quando multiplicado por si mesmo, resulta em n. Por exemplo, a raiz quadrada de 16 é 4, porque 4×4=16. O símbolo para raiz quadrada é &#8730;</p>
-            <br>
-            <h3>Frações e Decimais: Leitura, Escrita, Comparação, Operações e Transformações</h3>
-
-            <h4>Leitura e Escrita</h4>
-            <p>Frações representam uma parte de um todo e são escritas na forma <sup>a</sup>/<sub>b</sub>, onde <strong>a</strong> é o numerador e <strong>b</strong> é o denominador. Decimais, por outro lado, usam a vírgula ou ponto para indicar a parte fracionária, como 0,75 ou 0.75.</p>
-            
-            <h4>Comparação</h4>
-            <p>Para comparar frações, é comum encontrar um denominador comum ou convertê-las em decimais. Por exemplo, ½ é maior que ⅓ porque 0,5 &gt; 0,33.</p>
-            
-            <h4>Operações</h4>
-            <ul>
-                <strong>Adição e Subtração</strong>: Para somar ou subtrair frações, é necessário um denominador comum. Exemplo: ¼ + ½ = ¼ + 2/4 = 3/4.
-                <strong>Multiplicação</strong>: Multiplica-se os numeradores e os denominadores. Exemplo: 1/2 × 2/5 = 2/15.
-                <strong>Divisão</strong>: Multiplica-se pela fração inversa. Exemplo: ½ ÷ ¼ = ½ × 4/1 = 2.
-            </ul>
-            
-            <h4>Transformações</h4>
-            <p>Frações podem ser convertidas em decimais (e vice-versa). Para converter uma fração em decimal, divide-se o numerador pelo denominador. Por exemplo, 3/4 = 0,75. Decimais periódicos podem ser representados como frações, como 0,333... = ⅓.</p>
-        </div>
-        <div class="quiz-container">
-            <h2>Quiz de Matemática</h2>
-
-            <?php
+<?php
             session_start(); // Inicia a sessão para armazenar a questão atual
+            
 
             // Array de questões
             $questions = [
@@ -178,6 +114,71 @@
                 exit;
             }
             ?>
+            
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="math_6_ano.css">
+    <title>Quiz de Matemática</title>
+
+</head>
+<body>
+<header id='home_quiz'>
+        <div class="logo">
+            <h1>Home Page</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="cursos.php">Cursos</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>
+            </ul>
+        </nav>
+</header>
+
+<div class="content-wrapper">
+    <div class="quiz-container-wrapper">
+        <div class="content-wrapper">
+        <div class="explanation">
+        <h3>Números Naturais: operações (adição, subtração, multiplicação, divisão), múltiplos e divisores, potências e raízes quadradas.</h3>
+            <p>(Os números naturais são os números inteiros não negativos que usamos para contar. Eles começam em 0 (ou 1, dependendo da definição) e vão até o infinito: 0,1,2,3,4,… Operações com Números Naturais</p>
+            <p><strong>Adição: </strong>Combina dois ou mais números para obter um total. Exemplo: 3+5=8</p>
+            <p><strong>Subtração: </strong>Remove um número de outro. Exemplo: 8−3=5</p>
+            <p><strong>Multiplicação: </strong>É a soma de um número repetido várias vezes. Exemplo: 4×3=12 (4 somado 3 vezes).</p>
+            <p><strong>Divisão: </strong>Distribui um número em partes iguais. Exemplo: 12÷3=4 (12 dividido em 3 partes iguais).</p>
+            <br>
+            Múltiplos e Divisores
+            <p><strong>Múltiplos: </strong>Um número mmm é um múltiplo de um número nnn se pode ser obtido multiplicando nnn por um número natural. Por exemplo, os múltiplos de 3 são 0,3,6,9,12,…</p>
+            <p><strong>Divisores: </strong>Um número d é um divisor de n se n pode ser dividido por d sem deixar resto. Por exemplo, os divisores de 12 são 1,2,3,4,6,12.</p>
+            <br>
+            <p><strong>Potências</strong></p>
+            <p>Uma potência representa um número multiplicado por ele mesmo um certo número de vezes. Por exemplo, 2³ (lê-se "dois elevado a três") significa 2×2×2=8. A base é o número que está sendo multiplicado (neste caso, 2) e o expoente indica quantas vezes multiplicou a base por si mesma.</p>
+            <p><strong>Raízes Quadradas</strong></p>
+            <p>A raiz quadrada de um número n é o valor que, quando multiplicado por si mesmo, resulta em n. Por exemplo, a raiz quadrada de 16 é 4, porque 4×4=16. O símbolo para raiz quadrada é &#8730;</p>
+            <br>
+            <h3>Frações e Decimais: Leitura, Escrita, Comparação, Operações e Transformações</h3>
+
+            <h4>Leitura e Escrita</h4>
+            <p>Frações representam uma parte de um todo e são escritas na forma <sup>a</sup>/<sub>b</sub>, onde <strong>a</strong> é o numerador e <strong>b</strong> é o denominador. Decimais, por outro lado, usam a vírgula ou ponto para indicar a parte fracionária, como 0,75 ou 0.75.</p>
+            
+            <h4>Comparação</h4>
+            <p>Para comparar frações, é comum encontrar um denominador comum ou convertê-las em decimais. Por exemplo, ½ é maior que ⅓ porque 0,5 &gt; 0,33.</p>
+            
+            <h4>Operações</h4>
+            <ul>
+                <strong>Adição e Subtração</strong>: Para somar ou subtrair frações, é necessário um denominador comum. Exemplo: ¼ + ½ = ¼ + 2/4 = 3/4.
+                <strong>Multiplicação</strong>: Multiplica-se os numeradores e os denominadores. Exemplo: 1/2 × 2/5 = 2/15.
+                <strong>Divisão</strong>: Multiplica-se pela fração inversa. Exemplo: ½ ÷ ¼ = ½ × 4/1 = 2.
+            </ul>
+            
+            <h4>Transformações</h4>
+            <p>Frações podem ser convertidas em decimais (e vice-versa). Para converter uma fração em decimal, divide-se o numerador pelo denominador. Por exemplo, 3/4 = 0,75. Decimais periódicos podem ser representados como frações, como 0,333... = ⅓.</p>
+        </div>
+        <div class="quiz-container">
+            <h2>Quiz de Matemática</h2>
 
             <?php if ($quiz_completed): ?>
                     <h2>Parabéns! Você completou todo o quiz.</h2>

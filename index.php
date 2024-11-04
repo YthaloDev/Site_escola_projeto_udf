@@ -32,15 +32,15 @@
 
     <section id="sobre">
         <h2>Sobre nós</h2>
-        <p>Aqui nessa página dedicada ao estudo e aprimoramento dos alunos</p>
+        <p>Aqui nessa página será dedicada ao estudo e aprimoramento dos alunos</p>
     </section>
 
     <section id="cursos">
         <h2>Nossos cursos</h2>
         <div class="curso-list">
             <div class="curso">
-                <h3>Os conteudos aqui</h3>
-                <p>"Descrição do curso"</p>
+                <h3>Os conteudos <a class="_1jh3hava" href="cursos.php">aqui</a></h3>
+                <p>Atualmente temos 2 cursos, de Matématica e Português do 6 ao 9 ano!</p>
             
         </div>
     </section>

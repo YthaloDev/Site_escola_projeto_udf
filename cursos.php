@@ -44,7 +44,7 @@
         <div class="math">
             <button id="toggle-math" aria-expanded="true" type="button" aria-disabled="false" class="_rg43ryz">
             <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" width="45" height="45" class="_fmdt9s" alt="">
-            <h4>&#8203; Matemática Ensino Médio <h4>
+            <h4>&#8203; Matemática Anos Finais <h4>
             <span class="_ufibmvg"></span>
             </button>
 
@@ -62,7 +62,7 @@
         <div class="science">
             <button id="toggle-science" aria-expanded="true" type="button" aria-disabled="false" class="_rg43ryz">
                 <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" width="45" height="45" class="_fmdt9s" alt="">
-                <h4>&#8203; Português Ensino Médio </h4>
+                <h4>&#8203; Português Anos Finais&#8203;&#8203;&#8203; </h4>
                 <span class="_ufibmvg"></span>
             </button>
 

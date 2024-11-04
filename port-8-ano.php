@@ -38,122 +38,106 @@
             // Array de questões
             $questions = [
                 [
-                    "question" => "Qual é a moral da fábula 'A cigarra e a formiga'?",
-                    "options" => ["Trabalhar é sempre ruim", "A importância da diversão", "A importância do trabalho e da preparação para o futuro", "É melhor ser desleixado"],
-                    "correct_answer" => "A importância do trabalho e da preparação para o futuro"
+                    "question" => "Quais características diferenciam uma crônica de um conto moderno?",
+                    "options" => [
+                        "a) Tempo de leitura.",
+                        "b) Estrutura e tom.",
+                        "c) Tipo de personagem.",
+                        "d) Número de palavras."
+                    ],
+                    "correct_answer" => "b) Estrutura e tom."
                 ],
                 [
-                    "question" => "O que são parlendas?",
+                    "question" => "O que é uma distopia?",
                     "options" => [
-                        "a) Poemas curtos que rimam.",
-                        "b) Histórias de mistério.",
-                        "c) Rimas infantis que ajudam a desenvolver a linguagem.",
-                        "d) Crônicas engraçadas."
+                        "a) Uma história de amor.",
+                        "b) Uma obra que retrata um futuro negativo.",
+                        "c) Uma biografia.",
+                        "d) Uma história de aventura."
                     ],
-                    "correct_answer" => "c) Rimas infantis que ajudam a desenvolver a linguagem."
+                    "correct_answer" => "b) Uma obra que retrata um futuro negativo."
                 ],
                 [
-                    "question" => "Transforme a frase 'O sol brilha' em uma frase negativa:",
+                    "question" => "O que é um soneto?",
                     "options" => [
-                        "a) O sol não brilha.",
-                        "b) O sol brilhará.",
-                        "c) O sol brilha mais.",
-                        "d) O sol brilhava."
+                        "a) Um poema livre.",
+                        "b) Um poema com 14 versos.",
+                        "c) Um texto narrativo.",
+                        "d) Um tipo de crônica."
                     ],
-                    "correct_answer" => "a) O sol não brilha."
+                    "correct_answer" => "b) Um poema com 14 versos."
                 ],
                 [
-                    "question" => "Complete a frase com a pontuação correta: 'Você gosta de ler __'",
+                    "question" => "Como um texto de opinião deve ser estruturado?",
                     "options" => [
-                        "a) !",
-                        "b) ?",
-                        "c) .",
-                        "d) ,"
+                        "a) Apenas com informações.",
+                        "b) Com introdução, desenvolvimento e conclusão.",
+                        "c) Somente com exemplos.",
+                        "d) Sem conclusão."
                     ],
-                    "correct_answer" => "b) ?"
+                    "correct_answer" => "b) Com introdução, desenvolvimento e conclusão."
                 ],
                 [
-                    "question" => "Na frase 'O cachorro grande corre rápido pelo parque', qual é o substantivo?",
+                    "question" => "Na frase 'O aluno escreveu a redação', qual é a voz verbal?",
                     "options" => [
-                        "a) grande",
-                        "b) corre",
-                        "c) cachorro",
-                        "d) rápido"
+                        "a) Ativa",
+                        "b) Passiva",
+                        "c) Reflexiva",
+                        "d) Impessoal"
                     ],
-                    "correct_answer" => "c) cachorro"
+                    "correct_answer" => "a) Ativa"
                 ],
                 [
-                    "question" => "Qual é um exemplo de verbo no passado?",
+                    "question" => "Corrija a frase: 'Fazem três anos que ela mora aqui.'",
                     "options" => [
-                        "a) Correr",
-                        "b) Come",
-                        "c) Cantou",
-                        "d) Canta"
+                        "a) Faz três anos.",
+                        "b) Fazem três anos.",
+                        "c) Faz três anos.",
+                        "d) Fazem três ano."
                     ],
-                    "correct_answer" => "c) Cantou"
+                    "correct_answer" => "a) Faz três anos."
                 ],
                 [
-                    "question" => "O que é essencial incluir em um resumo?",
+                    "question" => "Quais elementos devem estar presentes em uma crônica?",
                     "options" => [
-                        "a) Opiniões pessoais",
-                        "b) Todos os detalhes",
-                        "c) Os pontos principais do texto",
-                        "d) Palavras difíceis"
+                        "a) Fatos reais, humor e personagens.",
+                        "b) Apenas opiniões pessoais.",
+                        "c) Informações científicas.",
+                        "d) Ação intensa e suspense."
                     ],
-                    "correct_answer" => "c) Os pontos principais do texto"
+                    "correct_answer" => "a) Fatos reais, humor e personagens."
                 ],
                 [
-                    "question" => "O que caracteriza um reconto?",
+                    "question" => "Qual é o objetivo de um texto dissertativo?",
                     "options" => [
-                        "a) Mudança do tema original",
-                        "b) Repetição exata do texto",
-                        "c) Uso de elementos visuais",
-                        "d) Mudança do final"
+                        "a) Informar e convencer.",
+                        "b) Contar uma história.",
+                        "c) Expressar emoções.",
+                        "d) Relatar um fato."
                     ],
-                    "correct_answer" => "d) Mudança do final"
+                    "correct_answer" => "a) Informar e convencer."
                 ],
                 [
-                    "question" => "Qual é a principal lição da fábula 'A Raposa e as Uvas'?",
+                    "question" => "Qual é a importância do uso de conectivos em um texto de opinião?",
                     "options" => [
-                        "a) Não devemos nos preocupar com as opiniões dos outros.",
-                        "b) É melhor não querer o que não podemos ter.",
-                        "c) A importância da perseverança.",
-                        "d) A sabedoria das raposas."
+                        "a) Eles não têm importância.",
+                        "b) Facilitam a organização e a fluência do texto.",
+                        "c) Apenas aumentam o número de palavras.",
+                        "d) Tornam o texto mais difícil de entender."
                     ],
-                    "correct_answer" => "b) É melhor não querer o que não podemos ter."
+                    "correct_answer" => "b) Facilitam a organização e a fluência do texto."
                 ],
                 [
-                    "question" => "O que caracteriza uma parlenda?",
+                    "question" => "Na frase 'As flores foram entregues ao cliente', qual é a voz verbal?",
                     "options" => [
-                        "a) Seu tom sério.",
-                        "b) O uso de rimas e repetição.",
-                        "c) A longa narrativa.",
-                        "d) A falta de ritmo."
+                        "a) Ativa",
+                        "b) Passiva",
+                        "c) Reflexiva",
+                        "d) Impessoal"
                     ],
-                    "correct_answer" => "b) O uso de rimas e repetição."
-                ],
-                [
-                    "question" => "Transforme a frase 'A lua brilha' em uma frase negativa:",
-                    "options" => [
-                        "a) A lua não brilha.",
-                        "b) A lua brilhava.",
-                        "c) A lua brilhará.",
-                        "d) A lua brilha mais."
-                    ],
-                    "correct_answer" => "a) A lua não brilha."
-                ],
-                [
-                    "question" => "Complete a frase com a pontuação correta: 'Você vai à festa __'",
-                    "options" => [
-                        "a) !",
-                        "b) ?",
-                        "c) .",
-                        "d) ,"
-                    ],
-                    "correct_answer" => "b) ?"
-                ], 
-    
-            ];
+                    "correct_answer" => "b) Passiva"
+                ]
+            ];            
             if (isset($_POST['restart_quiz'])) {
                 session_unset();
                 header("Location: " . $_SERVER['PHP_SELF']);

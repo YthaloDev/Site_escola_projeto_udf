@@ -37,122 +37,107 @@
             // Array de questões
             $questions = [
                 [
-                    "question" => "Qual é a moral da fábula 'A cigarra e a formiga'?",
-                    "options" => ["Trabalhar é sempre ruim", "A importância da diversão", "A importância do trabalho e da preparação para o futuro", "É melhor ser desleixado"],
-                    "correct_answer" => "A importância do trabalho e da preparação para o futuro"
+                    "question" => "Qual a diferença entre uma reportagem e um artigo de opinião?",
+                    "options" => [
+                        "a) A forma de escrita.",
+                        "b) A intenção e a estrutura.",
+                        "c) A quantidade de páginas.",
+                        "d) A presença de diálogos."
+                    ],
+                    "correct_answer" => "b) A intenção e a estrutura."
                 ],
                 [
-                    "question" => "O que são parlendas?",
+                    "question" => "Quais são as partes fundamentais de um texto dissertativo-argumentativo?",
                     "options" => [
-                        "a) Poemas curtos que rimam.",
-                        "b) Histórias de mistério.",
-                        "c) Rimas infantis que ajudam a desenvolver a linguagem.",
-                        "d) Crônicas engraçadas."
+                        "a) Título, introdução, desenvolvimento e conclusão.",
+                        "b) Apenas título e conclusão.",
+                        "c) Introdução e personagens.",
+                        "d) Somente desenvolvimento."
                     ],
-                    "correct_answer" => "c) Rimas infantis que ajudam a desenvolver a linguagem."
+                    "correct_answer" => "a) Título, introdução, desenvolvimento e conclusão."
                 ],
                 [
-                    "question" => "Transforme a frase 'O sol brilha' em uma frase negativa:",
+                    "question" => "O que é a função referencial da linguagem?",
                     "options" => [
-                        "a) O sol não brilha.",
-                        "b) O sol brilhará.",
-                        "c) O sol brilha mais.",
-                        "d) O sol brilhava."
+                        "a) Expressar emoções.",
+                        "b) Informar e descrever realidades.",
+                        "c) Criar poesia.",
+                        "d) Fazer perguntas."
                     ],
-                    "correct_answer" => "a) O sol não brilha."
+                    "correct_answer" => "b) Informar e descrever realidades."
                 ],
                 [
-                    "question" => "Complete a frase com a pontuação correta: 'Você gosta de ler __'",
+                    "question" => "Na frase 'A menina comprou flores para a professora', qual é o termo acessório?",
                     "options" => [
-                        "a) !",
-                        "b) ?",
-                        "c) .",
-                        "d) ,"
+                        "a) menina",
+                        "b) comprou",
+                        "c) flores",
+                        "d) para a professora"
                     ],
-                    "correct_answer" => "b) ?"
+                    "correct_answer" => "d) para a professora"
                 ],
                 [
-                    "question" => "Na frase 'O cachorro grande corre rápido pelo parque', qual é o substantivo?",
+                    "question" => "Quais são as estratégias que você pode usar para fortalecer seus argumentos em um texto dissertativo?",
                     "options" => [
-                        "a) grande",
-                        "b) corre",
-                        "c) cachorro",
-                        "d) rápido"
+                        "a) Usar opiniões pessoais.",
+                        "b) Apresentar dados e exemplos.",
+                        "c) Fazer suposições.",
+                        "d) Ignorar contra-argumentos."
                     ],
-                    "correct_answer" => "c) cachorro"
+                    "correct_answer" => "b) Apresentar dados e exemplos."
                 ],
                 [
-                    "question" => "Qual é um exemplo de verbo no passado?",
+                    "question" => "O que deve ser considerado ao escrever uma resenha crítica?",
                     "options" => [
-                        "a) Correr",
-                        "b) Come",
-                        "c) Cantou",
-                        "d) Canta"
+                        "a) Apenas a sua opinião.",
+                        "b) Estrutura, enredo, personagens e estilo.",
+                        "c) Somente o tema.",
+                        "d) A quantidade de palavras."
                     ],
-                    "correct_answer" => "c) Cantou"
+                    "correct_answer" => "b) Estrutura, enredo, personagens e estilo."
                 ],
                 [
-                    "question" => "O que é essencial incluir em um resumo?",
+                    "question" => "Quais são as características de um bom argumento?",
                     "options" => [
-                        "a) Opiniões pessoais",
-                        "b) Todos os detalhes",
-                        "c) Os pontos principais do texto",
-                        "d) Palavras difíceis"
+                        "a) Subjetividade e emoção.",
+                        "b) Clareza, relevância e evidências.",
+                        "c) Dificuldade na compreensão.",
+                        "d) Uso de jargão técnico."
                     ],
-                    "correct_answer" => "c) Os pontos principais do texto"
+                    "correct_answer" => "b) Clareza, relevância e evidências."
                 ],
                 [
-                    "question" => "O que caracteriza um reconto?",
+                    "question" => "Qual é a função de uma conclusão em um texto dissertativo?",
                     "options" => [
-                        "a) Mudança do tema original",
-                        "b) Repetição exata do texto",
-                        "c) Uso de elementos visuais",
-                        "d) Mudança do final"
+                        "a) Repetir a introdução.",
+                        "b) Apresentar novas informações.",
+                        "c) Resumir e reforçar a tese principal.",
+                        "d) Mudar o assunto."
                     ],
-                    "correct_answer" => "d) Mudança do final"
+                    "correct_answer" => "c) Resumir e reforçar a tese principal."
                 ],
                 [
-                    "question" => "Qual é a principal lição da fábula 'A Raposa e as Uvas'?",
+                    "question" => "Na frase 'A aluna entregou a tarefa para o professor', qual é o termo acessório?",
                     "options" => [
-                        "a) Não devemos nos preocupar com as opiniões dos outros.",
-                        "b) É melhor não querer o que não podemos ter.",
-                        "c) A importância da perseverança.",
-                        "d) A sabedoria das raposas."
+                        "a) A aluna",
+                        "b) entregou",
+                        "c) a tarefa",
+                        "d) para o professor"
                     ],
-                    "correct_answer" => "b) É melhor não querer o que não podemos ter."
+                    "correct_answer" => "d) para o professor"
                 ],
                 [
-                    "question" => "O que caracteriza uma parlenda?",
+                    "question" => "O que caracteriza a função referencial da linguagem?",
                     "options" => [
-                        "a) Seu tom sério.",
-                        "b) O uso de rimas e repetição.",
-                        "c) A longa narrativa.",
-                        "d) A falta de ritmo."
+                        "a) A expressividade do autor.",
+                        "b) A clareza na comunicação de informações.",
+                        "c) O uso de metáforas.",
+                        "d) A presença de personagens."
                     ],
-                    "correct_answer" => "b) O uso de rimas e repetição."
-                ],
-                [
-                    "question" => "Transforme a frase 'A lua brilha' em uma frase negativa:",
-                    "options" => [
-                        "a) A lua não brilha.",
-                        "b) A lua brilhava.",
-                        "c) A lua brilhará.",
-                        "d) A lua brilha mais."
-                    ],
-                    "correct_answer" => "a) A lua não brilha."
-                ],
-                [
-                    "question" => "Complete a frase com a pontuação correta: 'Você vai à festa __'",
-                    "options" => [
-                        "a) !",
-                        "b) ?",
-                        "c) .",
-                        "d) ,"
-                    ],
-                    "correct_answer" => "b) ?"
-                ], 
-    
+                    "correct_answer" => "b) A clareza na comunicação de informações."
+                ]
             ];
+            
             if (isset($_POST['restart_quiz'])) {
                 session_unset();
                 header("Location: " . $_SERVER['PHP_SELF']);

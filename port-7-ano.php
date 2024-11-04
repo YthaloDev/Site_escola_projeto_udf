@@ -38,122 +38,127 @@
             // Array de questões
             $questions = [
                 [
-                    "question" => "Qual é a moral da fábula 'A cigarra e a formiga'?",
-                    "options" => ["Trabalhar é sempre ruim", "A importância da diversão", "A importância do trabalho e da preparação para o futuro", "É melhor ser desleixado"],
-                    "correct_answer" => "A importância do trabalho e da preparação para o futuro"
+                    "question" => "O que diferencia as histórias em quadrinhos de outros gêneros literários?",
+                    "options" => [
+                        "a) Apenas desenhos.",
+                        "b) Diálogos e ilustrações combinados.",
+                        "c) Apenas texto.",
+                        "d) História longa."
+                    ],
+                    "correct_answer" => "b) Diálogos e ilustrações combinados."
                 ],
                 [
-                    "question" => "O que são parlendas?",
+                    "question" => "Quais são as principais características de uma reportagem?",
                     "options" => [
-                        "a) Poemas curtos que rimam.",
-                        "b) Histórias de mistério.",
-                        "c) Rimas infantis que ajudam a desenvolver a linguagem.",
-                        "d) Crônicas engraçadas."
+                        "a) Subjetividade e pouca informação.",
+                        "b) Objetividade e apuração de fatos.",
+                        "c) Texto poético.",
+                        "d) Diálogos."
                     ],
-                    "correct_answer" => "c) Rimas infantis que ajudam a desenvolver a linguagem."
+                    "correct_answer" => "b) Objetividade e apuração de fatos."
                 ],
                 [
-                    "question" => "Transforme a frase 'O sol brilha' em uma frase negativa:",
+                    "question" => "Na frase 'Ele corre rapidamente para casa', qual é o advérbio?",
                     "options" => [
-                        "a) O sol não brilha.",
-                        "b) O sol brilhará.",
-                        "c) O sol brilha mais.",
-                        "d) O sol brilhava."
+                        "a) corre",
+                        "b) rapidamente",
+                        "c) para",
+                        "d) casa"
                     ],
-                    "correct_answer" => "a) O sol não brilha."
+                    "correct_answer" => "b) rapidamente"
                 ],
                 [
-                    "question" => "Complete a frase com a pontuação correta: 'Você gosta de ler __'",
+                    "question" => "Qual frase usa corretamente uma preposição?",
                     "options" => [
-                        "a) !",
-                        "b) ?",
-                        "c) .",
-                        "d) ,"
+                        "a) Ele foi para a escola.",
+                        "b) Ele vai escola.",
+                        "c) Ele na escola.",
+                        "d) Ele a escola."
                     ],
-                    "correct_answer" => "b) ?"
+                    "correct_answer" => "a) Ele foi para a escola."
                 ],
                 [
-                    "question" => "Na frase 'O cachorro grande corre rápido pelo parque', qual é o substantivo?",
+                    "question" => "Transforme a frase 'Ela cantou' para o presente:",
                     "options" => [
-                        "a) grande",
-                        "b) corre",
-                        "c) cachorro",
-                        "d) rápido"
+                        "a) Ela canta.",
+                        "b) Ela cantou.",
+                        "c) Ela cantará.",
+                        "d) Ela cantava."
                     ],
-                    "correct_answer" => "c) cachorro"
+                    "correct_answer" => "a) Ela canta."
                 ],
                 [
-                    "question" => "Qual é um exemplo de verbo no passado?",
+                    "question" => "Qual é um exemplo de uma frase no futuro?",
                     "options" => [
-                        "a) Correr",
-                        "b) Come",
-                        "c) Cantou",
-                        "d) Canta"
+                        "a) Eu estudei.",
+                        "b) Eu estudarei.",
+                        "c) Eu estudo.",
+                        "d) Eu estudava."
                     ],
-                    "correct_answer" => "c) Cantou"
+                    "correct_answer" => "b) Eu estudarei."
                 ],
                 [
-                    "question" => "O que é essencial incluir em um resumo?",
+                    "question" => "Quais são as partes principais de uma carta?",
                     "options" => [
-                        "a) Opiniões pessoais",
-                        "b) Todos os detalhes",
-                        "c) Os pontos principais do texto",
-                        "d) Palavras difíceis"
+                        "a) Nome, data, saudação, corpo, despedida.",
+                        "b) Apenas data e assinatura.",
+                        "c) Título e imagem.",
+                        "d) Apenas o corpo."
                     ],
-                    "correct_answer" => "c) Os pontos principais do texto"
+                    "correct_answer" => "a) Nome, data, saudação, corpo, despedida."
                 ],
                 [
-                    "question" => "O que caracteriza um reconto?",
+                    "question" => "Qual a importância de diálogos em uma narrativa?",
                     "options" => [
-                        "a) Mudança do tema original",
-                        "b) Repetição exata do texto",
-                        "c) Uso de elementos visuais",
-                        "d) Mudança do final"
+                        "a) Tornam a leitura mais difícil.",
+                        "b) Ajudam a desenvolver os personagens e a trama.",
+                        "c) Não têm importância.",
+                        "d) Aumentam o número de páginas."
                     ],
-                    "correct_answer" => "d) Mudança do final"
+                    "correct_answer" => "b) Ajudam a desenvolver os personagens e a trama."
                 ],
                 [
-                    "question" => "Qual é a principal lição da fábula 'A Raposa e as Uvas'?",
+                    "question" => "Qual é a função de uma introdução em uma reportagem?",
                     "options" => [
-                        "a) Não devemos nos preocupar com as opiniões dos outros.",
-                        "b) É melhor não querer o que não podemos ter.",
-                        "c) A importância da perseverança.",
-                        "d) A sabedoria das raposas."
+                        "a) Apresentar o tema e chamar a atenção do leitor.",
+                        "b) Descrever os personagens.",
+                        "c) Apresentar a conclusão.",
+                        "d) Fornecer dados estatísticos."
                     ],
-                    "correct_answer" => "b) É melhor não querer o que não podemos ter."
+                    "correct_answer" => "a) Apresentar o tema e chamar a atenção do leitor."
                 ],
                 [
-                    "question" => "O que caracteriza uma parlenda?",
+                    "question" => "Qual é a diferença entre uma crônica e uma notícia?",
                     "options" => [
-                        "a) Seu tom sério.",
-                        "b) O uso de rimas e repetição.",
-                        "c) A longa narrativa.",
-                        "d) A falta de ritmo."
+                        "a) A crônica é mais subjetiva, enquanto a notícia é objetiva.",
+                        "b) A crônica é mais longa.",
+                        "c) A notícia tem mais imagens.",
+                        "d) Não há diferença."
                     ],
-                    "correct_answer" => "b) O uso de rimas e repetição."
+                    "correct_answer" => "a) A crônica é mais subjetiva, enquanto a notícia é objetiva."
                 ],
                 [
-                    "question" => "Transforme a frase 'A lua brilha' em uma frase negativa:",
+                    "question" => "Identifique o advérbio na frase: 'Ela estudou muito para a prova.'",
                     "options" => [
-                        "a) A lua não brilha.",
-                        "b) A lua brilhava.",
-                        "c) A lua brilhará.",
-                        "d) A lua brilha mais."
+                        "a) estudou",
+                        "b) muito",
+                        "c) para",
+                        "d) prova"
                     ],
-                    "correct_answer" => "a) A lua não brilha."
+                    "correct_answer" => "b) muito"
                 ],
                 [
-                    "question" => "Complete a frase com a pontuação correta: 'Você vai à festa __'",
+                    "question" => "Na frase 'Ele foi à escola de bicicleta', qual a preposição correta?",
                     "options" => [
-                        "a) !",
-                        "b) ?",
-                        "c) .",
-                        "d) ,"
+                        "a) a",
+                        "b) de",
+                        "c) para",
+                        "d) em"
                     ],
-                    "correct_answer" => "b) ?"
-                ], 
-    
+                    "correct_answer" => "a) a"
+                ]
             ];
+            
             if (isset($_POST['restart_quiz'])) {
                 session_unset();
                 header("Location: " . $_SERVER['PHP_SELF']);

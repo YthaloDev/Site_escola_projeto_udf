@@ -26,22 +26,53 @@
     <div class="quiz-container-wrapper">
         <div class="content-wrapper">
         <div class="explanation">
-            <h3>Equações e Inequações do 2º Grau: Resolução de Equações e Problemas Envolvendo Equações Quadráticas</h3>
-            <p>As equações do 2º grau, ou quadráticas, têm a forma geral:</p>
-            <p><strong>ax² + bx + c = 0</strong>, onde <em>a</em>, <em>b</em> e <em>c</em> são coeficientes reais, e <em>a ≠ 0</em>.</p>
-            
-            <h4>1. Resolução de Equações do 2º Grau</h4>
-            <p>Existem várias formas de resolver equações quadráticas:</p>
-            
-            <ul>
-                <strong>Fórmula de Bhaskara</strong>: A fórmula para encontrar as raízes de uma equação quadrática é:
-                    <br>
-                    <strong>x = (-b ± √(b² - 4ac)) / 2a</strong>
-                
-                <strong>Fatoração</strong>: Se a equação pode ser fatorada, ela pode ser escrita como:
-                    <br>
-                    <strong>a(x - r₁)(x - r₂) = 0</strong>, onde <em>r₁</em> e <em>r₂</em> são as raízes.
-            </ul>
+        <h3>Equações e Inequações do 2º Grau: Resolução de Equações e Problemas Envolvendo Equações Quadráticas</h3>
+    <p>As equações do 2º grau, ou quadráticas, têm a forma geral:</p>
+    <p><strong>ax&sup2; + bx + c = 0</strong>, onde <em>a</em>, <em>b</em> e <em>c</em> são coeficientes reais, e <em>a &ne; 0</em>.</p>
+    
+    <h4>1. Resolução de Equações do 2º Grau</h4>
+    <p>Existem várias formas de resolver equações quadráticas:</p>
+    
+    <ul>
+        <li><strong>Fórmula de Bhaskara</strong>: A fórmula para encontrar as raízes de uma equação quadrática é:<br>
+            <strong>x = (-b &plusmn; &radic;(b&sup2; - 4ac)) / 2a</strong>
+        </li>
+        <li><strong>Fatoração</strong>: Se a equação pode ser fatorada, ela pode ser escrita como:<br>
+            <strong>a(x - r&#8321;)(x - r&#8322;) = 0</strong>, onde <em>r&#8321;</em> e <em>r&#8322;</em> são as raízes.
+        </li>
+    </ul>
+    
+    <h3>Funções do 2º Grau: Conceito, Representação Gráfica e Vértice</h3>
+    <p>A forma canônica (ou vértice) de uma parábola é uma maneira de expressar a função quadrática que facilita a identificação de suas propriedades, especialmente a posição do vértice.</p>
+    <p>A forma canônica é dada por <em>y = a(x - h)&sup2; + k</em>, onde <strong>(h, k)</strong> é o vértice da parábola.</p>
+    <ul>
+        <li><strong>Abertura:</strong> Se <em>a &gt; 0</em>, a parábola abre para cima; se <em>a &lt; 0</em>, abre para baixo.</li>
+    </ul>
+
+    <h3>Radiciação e Potenciação: Operações com Radicais e Expoentes</h3>
+    <ul>
+        <li><strong>Potenciação:</strong> Envolve elevar um número (a base) a um expoente. Exemplo: <em>a&sup;n</em>, onde <em>a</em> é a base e <em>n</em> é o expoente.</li>
+        <li><strong>Radiciação:</strong> Operação inversa da potenciação e envolve encontrar a raiz de um número.</li>
+    </ul>
+
+    <h3>Geometria Espacial: Prismas, Cilindros, Cones, Pirâmides e Esferas</h3>
+    <ul>
+        <li><strong>Volume de uma pirâmide:</strong> \( V = \frac{1}{3} \times \text{Área da base} \times \text{altura} \)</li>
+        <li><strong>Área de um cilindro:</strong> \( A = 2\pi r(r + h) \)</li>
+        <li><strong>Volume de um cone:</strong> \( V = \frac{1}{3}\pi r^2 h \)</li>
+    </ul>
+
+    <h3>Trigonometria Básica: Razões Trigonométricas no Triângulo Retângulo</h3>
+    <p>As razões trigonométricas seno, cosseno e tangente em ângulos comuns de 30°, 45° e 60°:</p>
+    <ul>
+        <li><strong>Seno de 30°:</strong> &frac12;</li>
+        <li><strong>Cosseno de 30°:</strong> &radic;3/2</li>
+        <li><strong>Tangente de 30°:</strong> &radic;3/3</li>
+    </ul>
+
+    <h3>Estatística e Probabilidade: Análise de Experimentos e Probabilidade Simples</h3>
+    <p>A probabilidade de um evento é dada por:</p>
+    <p><strong>Probabilidade</strong> = (A probabilidade de um evento é dada por número de casos favoráveis dividido pelo número de casos possíveis)</p>
         </div>
         <div class="quiz-container">
             <h2>Quiz de Matemática</h2>

@@ -1,55 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="math_6_ano.css">
-    <title>Quiz de Matemática</title>
-
-</head>
-<body>
-<header id='home_quiz'>
-        <div class="logo">
-            <h1>Home Page</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="cursos.php">Cursos</a></li>
-                <li><a href="cadastro.php">Cadastro</a></li>
-            </ul>
-        </nav>
-</header>
-
-<div class="content-wrapper">
-    <div class="quiz-container-wrapper">
-        <div class="content-wrapper">
-            <div class="explanation">
-                <h3>Números Racionais: operações com frações e números decimais, comparação e ordenação.</h3>
-                <p>
-                    <strong>Definição:</strong> Números racionais são aqueles que podem ser expressos na forma de fração <em>a/b</em>, onde <em>a</em> e <em>b</em> são inteiros e <em>b ≠ 0</em>. Eles incluem números inteiros, frações e decimais (finitos ou periódicos).
-                </p>
-                <p>
-                    <strong>Operações:</strong>
-                    <ul>
-                        Adição e Subtração: Em frações, é necessário um denominador comum. Em decimais, basta alinhar as casas decimais.
-                        Multiplicação: Multiplica-se numeradores e denominadores em frações, ou realiza-se a multiplicação direta em decimais.
-                        Divisão: Em frações, multiplica-se pelo inverso da segunda fração. Em decimais, move-se a vírgula para transformar o divisor em um número inteiro.
-                    </ul>
-                </p>
-                <p>
-                    <strong>Comparação e Ordenação:</strong>
-                    <ul>
-                        Frações: Convertem-se para o mesmo denominador ou para decimais.
-                        Decimais: Comparam-se as casas decimais, alinhando as vírgulas.
-                    </ul>
-                </p>
-            </div>
-        <div class="quiz-container">
-            <h2>Quiz de Matemática</h2>
-
-            <?php
+<?php
             session_start(); // Inicia a sessão para armazenar a questão atual
 
             // Array de questões
@@ -164,6 +113,97 @@
                 exit;
             }
             ?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="math_6_ano.css">
+    <title>Quiz de Matemática</title>
+
+</head>
+<body>
+<header id='home_quiz'>
+        <div class="logo">
+            <h1>Home Page</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="cursos.php">Cursos</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>
+            </ul>
+        </nav>
+</header>
+
+<div class="content-wrapper">
+    <div class="quiz-container-wrapper">
+        <div class="content-wrapper">
+            <div class="explanation">
+                <h3>Números Racionais: operações com frações e números decimais, comparação e ordenação.</h3>
+                <p>
+                    <strong>Definição:</strong> Números racionais são aqueles que podem ser expressos na forma de fração <em>a/b</em>, onde <em>a</em> e <em>b</em> são inteiros e <em>b ≠ 0</em>. Eles incluem números inteiros, frações e decimais (finitos ou periódicos).
+                </p>
+                <p>
+                    <strong>Operações:</strong>
+                    
+                        Adição e Subtração: Em frações, é necessário um denominador comum. Em decimais, basta alinhar as casas decimais.
+                        Multiplicação: Multiplica-se numeradores e denominadores em frações, ou realiza-se a multiplicação direta em decimais.
+                        Divisão: Em frações, multiplica-se pelo inverso da segunda fração. Em decimais, move-se a vírgula para transformar o divisor em um número inteiro.
+                    
+                </p>
+                <p>
+                    <strong>Comparação e Ordenação:</strong>
+                    
+                        Frações: Convertem-se para o mesmo denominador ou para decimais.
+                        Decimais: Comparam-se as casas decimais, alinhando as vírgulas.
+                    
+                </p>
+                <h3>Porcentagem e Proporções</h3>
+                <h4>Porcentagem</h4>
+                
+                    <li><strong>Definição</strong>: Representa uma razão em relação a 100, expressa pelo símbolo "%". Exemplo: 25% significa 25 em cada 100.</li>
+                    <li><strong>Cálculo</strong>: Para calcular uma porcentagem de um valor, multiplica-se o valor pela porcentagem em decimal. Exemplo: 20% de 50 é 0,2 × 50 = 10.</li>
+                    <li><strong>Aumento e Desconto</strong>: O aumento é calculado somando a porcentagem ao valor original, enquanto o desconto subtrai. Exemplo: um aumento de 10% em 200 é 200 × 1,1 = 220.</li>
+                
+                
+                <h4>Proporções</h4>
+                
+                    <li><strong>Definição</strong>: Uma proporção compara duas razões ou frações. Exemplo: se 2 maçãs custam R$4, então a proporção é 2/4 = x/y.</li>
+                    <li><strong>Regra de Três</strong>: Permite encontrar valores faltantes em situações proporcionais, usando uma proporção do tipo <em>a</em>/<em>b</em> = <em>c</em>/<em>d</em>, onde se resolve para o valor desconhecido.</li>
+                
+
+                <h3>Potenciação e Radiciação</h3>
+                <h4>Potenciação</h4>
+                <p><strong>Definição</strong>: Potenciação é a operação que representa a multiplicação repetida de um número por ele mesmo, como <em>a<sup>n</sup></em>. Exemplo: 3<sup>4</sup> = 3 × 3 × 3 × 3 = 81.</p>
+                
+                <h4>Propriedades</h4>
+                
+                    <li><strong>Produto de Potências com a Mesma Base</strong>: <em>a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup></em></li>
+                    <li><strong>Quociente de Potências com a Mesma Base</strong>: <em>a<sup>m</sup> / a<sup>n</sup> = a<sup>m-n</sup></em></li>
+                    <li><strong>Potência de uma Potência</strong>: <em>(a<sup>m</sup>)<sup>n</sup> = a<sup>m × n</sup></em></li>
+                
+                
+                <h4>Radiciação</h4>
+                <p><strong>Definição</strong>: Radiciação é a operação inversa da potenciação. A raiz <em>n</em>-ésima de um número <em>a</em> é o valor que, elevado a <em>n</em>, resulta em <em>a</em>. Exemplo: a raiz quadrada de 16 é 4, pois 4<sup>2</sup> = 16.</p>
+
+                <h3>Expressões Algébricas: Simplificação e Cálculos</h3>
+                <h4>Conceito</h4>
+                <p>Usam letras (variáveis) para representar números que podem variar ou serem desconhecidos, formando expressões. Exemplo: na expressão 3x + 5, o <em>x</em> é uma variável.</p>
+                
+                <h4>Simplificação de Expressões</h4>
+                <p>Simplificar uma expressão algébrica significa combinar termos semelhantes (termos com a mesma variável e expoente) para tornar a expressão mais simples. Exemplo: na expressão 2x + 3x, somamos os coeficientes, resultando em 5x.</p>
+                
+                <h4>Cálculos com Expressões</h4>
+                <p>Resolver expressões algébricas envolve substituir variáveis por números e realizar as operações. Exemplo: em 2x + 4, se x = 3, a expressão se torna 2(3) + 4 = 10.</p>
+
+                <h3>Estatística e Probabilidade: Médias (Aritmética e Ponderada)</h3>
+                <p>A média aritmética é a soma dos valores dividida pelo número de elementos.</p>
+                <p>Na média ponderada, cada valor tem um peso diferente, multiplicando-se os valores pelos pesos antes da soma.</p>
+            </div>
+        <div class="quiz-container">
+            <h2>Quiz de Matemática</h2>
 
             <?php if ($quiz_completed): ?>
                     <h2>Parabéns! Você completou todo o quiz.</h2>

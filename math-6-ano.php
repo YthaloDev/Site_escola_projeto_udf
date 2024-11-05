@@ -176,6 +176,40 @@
             
             <h4>Transformações</h4>
             <p>Frações podem ser convertidas em decimais (e vice-versa). Para converter uma fração em decimal, divide-se o numerador pelo denominador. Por exemplo, 3/4 = 0,75. Decimais periódicos podem ser representados como frações, como 0,333... = ⅓.</p>
+
+            <h3>Medidas: de Tempo, Comprimento, Massa, Volume e Capacidade</h3>
+    
+            <h4>Tempo</h4>
+            <p>O tempo é medido em unidades como segundos (s), minutos (min) e horas (h). Um dia possui 24 horas, e existem 60 minutos em uma hora e 60 segundos em um minuto.</p>
+            
+            <h4>Comprimento</h4>
+            <p>Medidas de comprimento são usadas para determinar a extensão de um objeto ou a distância entre dois pontos. As unidades mais comuns incluem milímetros (mm), centímetros (cm), metros (m) e quilômetros (km).</p>
+            
+            <h4>Massa</h4>
+            <p>A massa mede a quantidade de matéria em um objeto. As unidades de massa incluem gramas (g) e quilogramas (kg). A relação é: 1000 g = 1 kg.</p>
+            
+            <h4>Volume</h4>
+            <p>O volume é a quantidade de espaço que um objeto ocupa. As unidades de volume incluem litros (L) e mililitros (mL), onde 1 L = 1000 mL. Para sólidos, o volume pode ser calculado em metros cúbicos (m³).</p>
+            
+            <h4>Capacidade</h4>
+            <p>Capacidade refere-se à quantidade que um recipiente pode conter, frequentemente medida em litros (L) e mililitros (mL). A capacidade é essencial para o armazenamento de líquidos.</p>
+
+            <h3>Geometria Básica: Quadrado, Retângulo, Triângulo</h3>
+
+            <h4>1. Quadrado</h4>
+            <p>O quadrado é um polígono com quatro lados iguais e ângulos retos (90 graus).</p>
+            <p><strong>Perímetro:</strong> A soma de todos os lados, calculado como \( P = 4 \times L \), onde <strong>L</strong> é o comprimento do lado.</p>
+            <p><strong>Área:</strong> A medida da superfície, calculada como \( A = L^2 \).</p>
+
+            <h4>2. Retângulo</h4>
+            <p>O retângulo é um polígono com quatro lados, onde os lados opostos são iguais e todos os ângulos são retos.</p>
+            <p><strong>Perímetro:</strong> A soma de todos os lados, dada por \( P = 2 \times (L + w) \), onde <strong>L</strong> é o comprimento e <strong>w</strong> é a largura.</p>
+            <p><strong>Área:</strong> A medida da superfície, calculada como \( A = L \times w \).</p>
+
+            <h4>3. Triângulo</h4>
+            <p>O triângulo é um polígono com três lados e pode ter diferentes formas, como equilátero (lados iguais), isósceles (dois lados iguais) e escaleno (todos os lados diferentes).</p>
+            <p><strong>Perímetro:</strong> A soma dos três lados, \( P = a + b + c \), onde <strong>a</strong>, <strong>b</strong>, e <strong>c</strong> são os comprimentos dos lados.</p>
+            <p><strong>Área:</strong> A medida da superfície, calculada como \( A = \frac{b \times h}{2} \), onde <strong>b</strong> é a base e <strong>h</strong> é a altura.</p>
         </div>
         <div class="quiz-container">
             <h2>Quiz de Matemática</h2>

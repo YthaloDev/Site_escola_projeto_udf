@@ -1,73 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="math_6_ano.css">
-    <title>Quiz de Matemática</title>
-
-</head>
-<body>
-<header id='home_quiz'>
-        <div class="logo">
-            <h1>Home Page</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="cursos.php">Cursos</a></li>
-                <li><a href="cadastro.php">Cadastro</a></li>
-            </ul>
-        </nav>
-</header>
-
-<div class="content-wrapper">
-    <div class="quiz-container-wrapper">
-        <div class="content-wrapper">
-        <div class="explanation">
-            <h3>Números Reais: Conjuntos Numéricos, Operações e Propriedades</h3>
-        <h4>Conjuntos Numéricos</h4>
-        <ul>
-            <strong>Naturais (N)</strong>: Números usados para contagem, como 0, 1, 2, 3, ...
-            <strong>Inteiros (Z)</strong>: Incluem todos os números naturais e seus opostos negativos, como ..., -2, -1, 0, 1, ...
-            <strong>Racionais (Q)</strong>: Números que podem ser escritos como uma fração, como 1/2, 3/4, ou números inteiros expressos como fração (por exemplo, 5 = 5/1).
-            <strong>Irracionais</strong>: Números que não podem ser escritos como fração, como √2 e π. Eles possuem infinitas casas decimais não periódicas.
-            <strong>Reais (R)</strong>: Incluem todos os conjuntos acima: naturais, inteiros, racionais e irracionais.
-        </ul>
-        
-        <h4>Operações</h4>
-        <p>Nos conjuntos numéricos, as operações fundamentais são:</p>
-        <ul>
-            Adição
-            Subtração
-            Multiplicação
-            Divisão (com exceção de divisão por zero, que é indefinida)
-        </ul>
-        
-        <h4>Propriedades</h4>
-        <ul>
-            <strong>Comutativa</strong>: A ordem dos números não altera o resultado.
-                <ul>
-                    Exemplo: a + b = b + a e a × b = b × a
-                </ul>
-            
-            <strong>Associativa</strong>: A maneira de agrupar os números não altera o resultado.
-                <ul>
-                    Exemplo: (a + b) + c = a + (b + c) e (a × b) × c = a × (b × c)
-                </ul>
-            
-            <strong>Elemento Neutro</strong>:
-                <ul>
-                    Para <strong>adição</strong>, o elemento neutro é 0, pois qualquer número somado a 0 permanece o mesmo: a + 0 = a.
-                    Para <strong>multiplicação</strong>, o elemento neutro é 1, pois qualquer número multiplicado por 1 permanece o mesmo: a × 1 = a.
-                </ul>
-        </ul>
-        </div>
-        <div class="quiz-container">
-            <h2>Quiz de Matemática</h2>
-
-            <?php
+<?php
             session_start(); // Inicia a sessão para armazenar a questão atual
 
             // Array de questões
@@ -192,6 +123,122 @@
                 exit;
             }
             ?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="math_6_ano.css">
+    <title>Quiz de Matemática</title>
+
+</head>
+<body>
+<header id='home_quiz'>
+        <div class="logo">
+            <h1>Home Page</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="cursos.php">Cursos</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>
+            </ul>
+        </nav>
+</header>
+
+<div class="content-wrapper">
+    <div class="quiz-container-wrapper">
+        <div class="content-wrapper">
+        <div class="explanation">
+            <h3>Números Reais: Conjuntos Numéricos, Operações e Propriedades</h3>
+        <h4>Conjuntos Numéricos</h4>
+        <ul>
+            <strong>Naturais (N)</strong>: Números usados para contagem, como 0, 1, 2, 3, ...
+            <strong>Inteiros (Z)</strong>: Incluem todos os números naturais e seus opostos negativos, como ..., -2, -1, 0, 1, ...
+            <strong>Racionais (Q)</strong>: Números que podem ser escritos como uma fração, como 1/2, 3/4, ou números inteiros expressos como fração (por exemplo, 5 = 5/1).
+            <strong>Irracionais</strong>: Números que não podem ser escritos como fração, como √2 e π. Eles possuem infinitas casas decimais não periódicas.
+            <strong>Reais (R)</strong>: Incluem todos os conjuntos acima: naturais, inteiros, racionais e irracionais.
+        </ul>
+        
+        <h4>Operações</h4>
+        <p>Nos conjuntos numéricos, as operações fundamentais são:</p>
+        <ul>
+            Adição
+            Subtração
+            Multiplicação
+            Divisão (com exceção de divisão por zero, que é indefinida)
+        </ul>
+        
+        <h4>Propriedades</h4>
+        <ul>
+            <strong>Comutativa</strong>: A ordem dos números não altera o resultado.
+                <ul>
+                    Exemplo: a + b = b + a e a × b = b × a
+                </ul>
+            
+            <strong>Associativa</strong>: A maneira de agrupar os números não altera o resultado.
+                <ul>
+                    Exemplo: (a + b) + c = a + (b + c) e (a × b) × c = a × (b × c)
+                </ul>
+            
+            <strong>Elemento Neutro</strong>:
+                <ul>
+                    Para <strong>adição</strong>, o elemento neutro é 0, pois qualquer número somado a 0 permanece o mesmo: a + 0 = a.
+                    Para <strong>multiplicação</strong>, o elemento neutro é 1, pois qualquer número multiplicado por 1 permanece o mesmo: a × 1 = a.
+                </ul>
+        </ul>
+        <h3>Números Reais: Conjuntos Numéricos, Operações e Propriedades</h3>
+    <p>Conjuntos Numéricos:</p>
+    <ul>
+        <li><strong>Naturais (N):</strong> Números usados para contagem, como 0,1,2,3,…</li>
+        <li><strong>Inteiros (Z):</strong> Incluem todos os números naturais e seus opostos negativos, como …,−2,−1,0,1,...</li>
+        <li><strong>Racionais (Q):</strong> Números que podem ser escritos como uma fração</li>
+        <li><strong>Reais (R):</strong> Incluem todos os conjuntos acima.</li>
+    </ul>
+    <p>Operações: Adição, subtração, multiplicação e divisão (exceto por zero).</p>
+    <p>Propriedades:</p>
+    <ul>
+        <li><strong>Comutativa:</strong> a ordem não altera o resultado</li>
+        <li><strong>Associativa:</strong> a forma de agrupar não altera o resultado</li>
+        <li><strong>Elemento Neutro:</strong> Para a adição é o 0 (qualquer número somado a 0 permanece o mesmo) e para a multiplicação é o 1.</li>
+    </ul>
+
+
+
+    <h3>Equações do 1º Grau: Resolução de Equações e Inequações Simples</h3>
+    <p>Uma equação do 1º grau é uma equação que pode ser expressa na forma <em>ax + b = 0</em>, onde <em>a</em> e <em>b</em> são números reais e <em>a ≠ 0</em>. O objetivo é encontrar o valor de <em>x</em>.</p>
+    <p>Uma inequação é uma expressão que compara dois valores usando sinais de desigualdade (&gt;, &lt;, ≥, ≤).</p>
+
+
+    <h3>Funções: Conceito de Função</h3>
+    <p>Uma função é uma relação entre dois conjuntos, onde cada elemento do primeiro conjunto (domínio) está associado a exatamente um elemento do segundo conjunto (contradomínio).</p>
+    <p>É frequentemente representada como <em>f(x)</em>, onde <em>x</em> é a variável independente e <em>f(x)</em> é a variável dependente. Funções do 1º grau têm a forma geral <em>f(x) = ax + b</em>, onde <em>a</em> e <em>b</em> são constantes, e <em>a ≠ 0</em>.</p>
+
+
+    <h3>Geometria Plana: Teorema de Pitágoras, Propriedades de Triângulos, Polígonos e Circunferências</h3>
+    <p><strong>Teorema de Pitágoras:</strong> Aplica-se a triângulos retângulos, afirmando que o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.</p>
+    <p><strong>Propriedades de Triângulos:</strong></p>
+    <ul>
+        <li>Equilátero: Todos os lados e ângulos iguais.</li>
+        <li>Isósceles: Dois lados iguais.</li>
+        <li>Escaleno: Todos os lados diferentes.</li>
+    </ul>
+
+
+    <h3>Sistemas de Medidas: Conversões entre Unidades de Medida, Cálculo de Áreas e Volumes</h3>
+    <p><strong>Comprimento:</strong> Conversão entre unidades como metros, centímetros e milímetros. Exemplo: 1 m = 100 cm = 1000 mm.</p>
+    <p><strong>Massa:</strong> Conversão entre quilogramas, gramas e miligramas. Exemplo: 1 kg = 1000 g.</p>
+    <p><strong>Volume:</strong> Conversão entre litros, mililitros e metros cúbicos. Exemplo: 1 L = 1000 mL.</p>
+
+
+    <h3>Estatística: Medidas de Tendência Central (Média, Mediana e Moda)</h3>
+    <p><strong>Média:</strong> Soma dos valores dividida pelo número de elementos.</p>
+    <p><strong>Mediana:</strong> Valor que divide um conjunto de dados ordenados em duas partes iguais.</p>
+    <p><strong>Moda:</strong> Valor que aparece com mais frequência em um conjunto de dados.</p>
+        </div>
+        <div class="quiz-container">
+            <h2>Quiz de Matemática</h2>
 
             <?php if ($quiz_completed): ?>
                     <h2>Parabéns! Você completou todo o quiz.</h2>

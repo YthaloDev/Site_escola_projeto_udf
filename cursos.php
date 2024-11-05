@@ -50,10 +50,10 @@
 
             <div class="links-math">
 
-                    <li><a class="_1jh3hava" href="math-6-ano.php">6° ano</a></li>
-                    <li><a class="_1jh3hava" href="math-8-ano.php">8° ano</a></li>
-                    <li><a class="_1jh3hava" href="math-7-ano.php">7° ano</a></li>
-                    <li><a class="_1jh3hava" href="math-9-ano.php">9° ano</a></li>
+                    <li><a class="_1jh3hava" href="/math-6-ano.php">6° ano</a></li>
+                    <li><a class="_1jh3hava" href="/math-8-ano.php">8° ano</a></li>
+                    <li><a class="_1jh3hava" href="/math-7-ano.php">7° ano</a></li>
+                    <li><a class="_1jh3hava" href="/math-9-ano.php">9° ano</a></li>
 
             </div>
         </div>
@@ -67,13 +67,13 @@
             </button>
 
             <div class="links-science">
-                <li><a class="_1jh3hava" href="port-6-ano.php">6° ano</a></li>
+                <li><a class="_1jh3hava" href="/port-6-ano.php">6° ano</a></li>
 
-                <li><a class="_1jh3hava" href="port-8-ano.php">8° ano</a></li>
+                <li><a class="_1jh3hava" href="/port-8-ano.php">8° ano</a></li>
 
-                <li><a class="_1jh3hava" href="port-7-ano.php">7° ano</a></li>
+                <li><a class="_1jh3hava" href="/port-7-ano.php">7° ano</a></li>
 
-                <li><a class="_1jh3hava" href="port-9-ano.php">9° ano</a></li>
+                <li><a class="_1jh3hava" href="/port-9-ano.php">9° ano</a></li>
             </div>
         </div>
 

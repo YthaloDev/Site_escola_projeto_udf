@@ -15,10 +15,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/index.php">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="cursos.php">Cursos</a></li>
-                <li><a href="cadastro.php">Cadastro</a></li>
+                <li><a href="/cursos.php">Cursos</a></li>
+                <li><a href="/cadastro.php">Cadastro</a></li>
             </ul>
         </nav>
     </header>
